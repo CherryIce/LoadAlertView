@@ -9,6 +9,7 @@
 #ifndef Constant_h
 #define Constant_h
 
+/** 延迟多少秒 */
 #define DELAY_SECOND 2
 
 

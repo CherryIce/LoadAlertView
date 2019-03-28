@@ -13,11 +13,21 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
+//三方类
+#import "XFCamera.h"
+#import <AVFoundation/AVFoundation.h>
+
 //工具类
 #import "ICEGuideController.h"
 
 #import "ICEToolsHelper.h"
 #import "ICEUIFactory.h"
+
+//拓展类
+#import "WKWebView+ReloadRequest.h"
+#import "UIColor+HexString.h"
+#import "UIView+Frame.h"
+#import "UIViewController+AlertController.h"
 
 //请求类
 #import "APIRequest.h"

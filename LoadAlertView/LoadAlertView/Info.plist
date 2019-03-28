@@ -2,8 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>are you ok</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>are you ok</string>
+	<key>NSCameraUsageDescription</key>
+	<string>are u ok</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>are u ok </string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

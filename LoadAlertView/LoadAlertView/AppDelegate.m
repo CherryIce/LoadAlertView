@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "ICETabBarController.h"
+
 @interface AppDelegate ()<ICEGuideSelectDelegate>
 
 @end
@@ -43,7 +45,7 @@
 
 /**  引导页点击事件 */
 - (void) clickEnter{
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[ICETabBarController alloc] init];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

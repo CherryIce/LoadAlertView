@@ -26,11 +26,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self addChildViewController:[[ICEModule1ViewController alloc] init] navTitle:APPNAME tabbarTitle:@"one" tabbarImage:@"2"];
-    [self addChildViewController:[[ICEModule2ViewController alloc] init] navTitle:@"AAA" tabbarTitle:@"two" tabbarImage:@"4"];
-    [self addChildViewController:[[ICEModule3ViewController alloc] init] navTitle:@"ZZZ" tabbarTitle:@"three" tabbarImage:@"5"];
-    [self addChildViewController:[[ICEModule4ViewController alloc] init] navTitle:@"AAA" tabbarTitle:@"two" tabbarImage:@"4"];
-    [self addChildViewController:[[ICEModule5ViewController alloc] init] navTitle:@"ZZZ" tabbarTitle:@"three" tabbarImage:@"5"];
+    [self addChildViewController:[[ICEModule1ViewController alloc] init] navTitle:APPNAME tabbarTitle:@"one" tabbarImage:@"01"];
+    [self addChildViewController:[[ICEModule2ViewController alloc] init] navTitle:@"AAA" tabbarTitle:@"two" tabbarImage:@"01"];
+    [self addChildViewController:[[ICEModule3ViewController alloc] init] navTitle:@"ZZZ" tabbarTitle:@"three" tabbarImage:@"01"];
+    [self addChildViewController:[[ICEModule4ViewController alloc] init] navTitle:@"AAA" tabbarTitle:@"two" tabbarImage:@"01"];
+    [self addChildViewController:[[ICEModule5ViewController alloc] init] navTitle:@"ZZZ" tabbarTitle:@"three" tabbarImage:@"01"];
 
 }
 

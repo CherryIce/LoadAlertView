@@ -64,9 +64,6 @@
     // 你可以通过block或者代理，来得到用户选择的照片.
     [imagePickerVc setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos, NSArray *assets,BOOL isSelectOriginalPhoto){
         NSLog(@"选中图片photos === %@",photos);
-        //        for (UIImage *image in photos) {
-        //            [weakSelf requestData:image];//requestData:图片上传方法 在这里就不贴出来了
-        //        }
         [weakSelf.photos addObjectsFromArray:photos];
         [self.publishPhotosView reloadDataWithImages:weakSelf.photos];
     }];

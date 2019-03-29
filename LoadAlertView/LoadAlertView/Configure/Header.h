@@ -16,6 +16,8 @@
 //三方类
 #import "XFCamera.h"
 #import <AVFoundation/AVFoundation.h>
+#import "PYPhotoBrowser.h"
+#import "TZImagePickerController.h"
 
 //工具类
 #import "ICEGuideController.h"

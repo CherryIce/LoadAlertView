@@ -8,8 +8,6 @@
 
 #import "ICEModule3ViewController.h"
 
-#import "PYPhotoBrowser.h"
-
 @interface ICEModule3ViewController ()
 
 @end

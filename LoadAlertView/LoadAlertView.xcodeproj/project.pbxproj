@@ -57,6 +57,9 @@
 		221D65F0224C9AA200F2AB2C /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D65BE224C9AA200F2AB2C /* TZImagePickerController.m */; };
 		221D65F1224C9AA200F2AB2C /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D65BF224C9AA200F2AB2C /* TZLocationManager.m */; };
 		221D65F2224C9AA200F2AB2C /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D65C0224C9AA200F2AB2C /* TZGifPhotoPreviewController.m */; };
+		221D6602224DCB8D00F2AB2C /* ICEBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D6601224DCB8D00F2AB2C /* ICEBaseTableViewCell.m */; };
+		221D6605224DCBDA00F2AB2C /* MutilImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D6604224DCBDA00F2AB2C /* MutilImgCell.m */; };
+		221D6608224DEC9800F2AB2C /* DeleteImgViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D6607224DEC9800F2AB2C /* DeleteImgViewCell.m */; };
 		228C04EB2249BEB6003E115D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C04EA2249BEB6003E115D /* AppDelegate.m */; };
 		228C04EE2249BEB6003E115D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C04ED2249BEB6003E115D /* ViewController.m */; };
 		228C04F12249BEB6003E115D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228C04EF2249BEB6003E115D /* Main.storyboard */; };
@@ -210,6 +213,12 @@
 		221D65BF224C9AA200F2AB2C /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
 		221D65C0224C9AA200F2AB2C /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
 		221D65C1224C9AA200F2AB2C /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		221D6600224DCB8D00F2AB2C /* ICEBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEBaseTableViewCell.h; sourceTree = "<group>"; };
+		221D6601224DCB8D00F2AB2C /* ICEBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEBaseTableViewCell.m; sourceTree = "<group>"; };
+		221D6603224DCBDA00F2AB2C /* MutilImgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutilImgCell.h; sourceTree = "<group>"; };
+		221D6604224DCBDA00F2AB2C /* MutilImgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutilImgCell.m; sourceTree = "<group>"; };
+		221D6606224DEC9800F2AB2C /* DeleteImgViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteImgViewCell.h; sourceTree = "<group>"; };
+		221D6607224DEC9800F2AB2C /* DeleteImgViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteImgViewCell.m; sourceTree = "<group>"; };
 		228C04E62249BEB6003E115D /* LoadAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228C04E92249BEB6003E115D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		228C04EA2249BEB6003E115D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -652,6 +661,8 @@
 				228C056E224B00BD003E115D /* ICETableViewController.m */,
 				228C0570224B00DC003E115D /* ICEWKWeViewController.h */,
 				228C0571224B00DC003E115D /* ICEWKWeViewController.m */,
+				221D6600224DCB8D00F2AB2C /* ICEBaseTableViewCell.h */,
+				221D6601224DCB8D00F2AB2C /* ICEBaseTableViewCell.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -797,6 +808,10 @@
 		228C0550224AFEE8003E115D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				221D6603224DCBDA00F2AB2C /* MutilImgCell.h */,
+				221D6604224DCBDA00F2AB2C /* MutilImgCell.m */,
+				221D6606224DEC9800F2AB2C /* DeleteImgViewCell.h */,
+				221D6607224DEC9800F2AB2C /* DeleteImgViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1128,6 +1143,7 @@
 				221D65E9224C9AA200F2AB2C /* UIView+Layout.m in Sources */,
 				228C06D0224B6DCE003E115D /* ICEModule1ViewController.m in Sources */,
 				221D65CF224C9AA200F2AB2C /* PYPhotosView.m in Sources */,
+				221D6602224DCB8D00F2AB2C /* ICEBaseTableViewCell.m in Sources */,
 				221D65D6224C9AA200F2AB2C /* SDWebImageManager.m in Sources */,
 				221D65F1224C9AA200F2AB2C /* TZLocationManager.m in Sources */,
 				221D65CD224C9AA200F2AB2C /* PYPhotosPreviewController.m in Sources */,
@@ -1143,6 +1159,7 @@
 				221D65E4224C9AA200F2AB2C /* TZImageCropManager.m in Sources */,
 				221D65E5224C9AA200F2AB2C /* TZAssetCell.m in Sources */,
 				228C055D224B000B003E115D /* ICETabBarController.m in Sources */,
+				221D6605224DCBDA00F2AB2C /* MutilImgCell.m in Sources */,
 				228C06D9224B6F0B003E115D /* ICEModule3ViewController.m in Sources */,
 				221D65E3224C9AA200F2AB2C /* UIButton+WebCache.m in Sources */,
 				228C04EE2249BEB6003E115D /* ViewController.m in Sources */,
@@ -1164,6 +1181,7 @@
 				228C0563224B0036003E115D /* ICENavigationController.m in Sources */,
 				221D65C9224C9AA200F2AB2C /* PYPhotoBrowserConst.m in Sources */,
 				221D65E8224C9AA200F2AB2C /* NSBundle+TZImagePicker.m in Sources */,
+				221D6608224DEC9800F2AB2C /* DeleteImgViewCell.m in Sources */,
 				221D65DE224C9AA200F2AB2C /* SDImageCache.m in Sources */,
 				228C05232249C42F003E115D /* APIRequest.m in Sources */,
 				221D65ED224C9AA200F2AB2C /* TZImageManager.m in Sources */,

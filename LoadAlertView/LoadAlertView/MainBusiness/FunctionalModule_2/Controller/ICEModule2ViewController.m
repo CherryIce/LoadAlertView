@@ -8,9 +8,6 @@
 
 #import "ICEModule2ViewController.h"
 
-#import "PYPhotoBrowser.h"
-#import "TZImagePickerController.h"
-
 @interface ICEModule2ViewController ()<TZImagePickerControllerDelegate,PYPhotosViewDelegate>
 
 @property (nonatomic, weak) PYPhotosView *publishPhotosView;//属性 保存选择的图片

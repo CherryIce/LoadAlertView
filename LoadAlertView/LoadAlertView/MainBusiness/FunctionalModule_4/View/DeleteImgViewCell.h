@@ -8,15 +8,20 @@
 
 #import "ICEBaseTableViewCell.h"
 
+typedef enum : NSUInteger {
+    showPageControlType,
+    showPageLabelType
+} showAlertTyPe;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DeleteImgViewCell : ICEBaseTableViewCell<UIScrollViewDelegate>
+@interface DeleteImgViewCell : ICEBaseTableViewCell
 
-@property (nonatomic, strong) UIPageControl *pageControl;
-
-- (void)initWithImgDataArray:(NSArray *)dataArray;
+- (void)initWithImgDataArray:(NSArray *)dataArray index:(NSInteger)index;
 
 @property (nonatomic,copy) void (^delteImgCallBack)(NSInteger tag);
+
+@property (nonatomic,assign) showAlertTyPe type;
 
 @end
 

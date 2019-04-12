@@ -18,6 +18,9 @@
 #import <AVFoundation/AVFoundation.h>
 #import "PYPhotoBrowser.h"
 #import "TZImagePickerController.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "SDImageCache.h"
 
 //工具类
 #import "ICEGuideController.h"

@@ -30,7 +30,7 @@
     
     NSMutableArray * numberArr = [NSMutableArray arrayWithArray:dataArray];
     if (!isMaxNine) {
-        [numberArr insertObject:@"" atIndex:0];
+        [numberArr insertObject:[UIImage imageNamed:@"addimage"] atIndex:0];
     }
     
     for (int i = 0; i < numberArr.count; i++) {
@@ -43,31 +43,38 @@
         // PointY
         CGFloat picY =  10 + (self.width /3 - 10) * row;
     
+        UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(picX, picY, (self.width/3 - 15), (self.width/3 - 15))];
+        imageView.userInteractionEnabled = true;
+        imageView.contentMode = UIViewContentModeScaleAspectFit;
         
-        UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
-        [button setFrame:CGRectMake(picX, picY, (self.width/3 - 15), (self.width/3 - 15))];
-        button.backgroundColor = [UIColor purpleColor];
+        //图片和链接
+        if ([numberArr[i] isKindOfClass:[UIImage class]])
+            [imageView setImage:numberArr[i]];
+        else
+            [imageView sd_setImageWithURL:numberArr[i] placeholderImage:[UIImage imageNamed:@"01"]];
         
         if (!isMaxNine) {
             if (i == 0) {
-                button.tag = 20000;
+                imageView.tag = 20000;
             }else{
-                button.tag = i - 1;
+                imageView.tag = i - 1;
             }
         }else{
-            button.tag = i;
+           imageView.tag = i;
         }
         
-        [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:imageView];
         
-        [self addSubview:button];
+        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonClick:)];
+        [imageView addGestureRecognizer:tap];
     }
 }
 
-- (void) buttonClick:(UIButton *) sender
+- (void) buttonClick:(UITapGestureRecognizer *) sender
 {
+    UIImageView * imgV = (UIImageView*)sender.view;
     if (_imgHandleCallBack) {
-        _imgHandleCallBack(sender.tag);
+        _imgHandleCallBack(imgV.tag);
     }
 }
 

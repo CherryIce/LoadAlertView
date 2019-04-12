@@ -30,23 +30,16 @@
     return _photosArr;
 }
 
-//查看删除
-- (DeleteImgViewCell *)deleteImgCell{
-    if (!_deleteImgCell) {
-        _deleteImgCell = [[DeleteImgViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"deleteImgCell"];
-        _deleteImgCell.frame = [UIScreen mainScreen].bounds;
-    }
-    return _deleteImgCell;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    for (int i = 0; i < 5; i++) {
-        [self.photosArr addObject:@(i)];
-    }
 
+    [self.photosArr addObject:@"http://ww3.sinaimg.cn/large/006ka0Iygw1f6bqm7zukpj30g60kzdi2.jpg"];
+    [self.photosArr addObject:@"http://ww1.sinaimg.cn/large/61b69811gw1f6bqb1bfd2j20b4095dfy.jpg"];
+    [self.photosArr addObject:@"http://ww1.sinaimg.cn/large/54477ddfgw1f6bqkbanqoj20ku0rsn4d.jpg"];
+    [self.photosArr addObject:@"http://ww4.sinaimg.cn/large/006ka0Iygw1f6b8gpwr2tj30bc0bqmyz.jpg"];
+    [self.photosArr addObject:@"http://ww2.sinaimg.cn/large/9c2b5f31jw1f6bqtinmpyj20dw0ae76e.jpg"];
+    
     [self reloadCellView];
 }
 
@@ -68,17 +61,23 @@
             [weakSelf getPhotos];
         }else{
             //查看
-            [weakSelf searchImgThenDelete];
+            [weakSelf searchImgThenDelete:tag];
         }
     };
 }
 
 //点击查看
-- (void) searchImgThenDelete
+- (void) searchImgThenDelete:(NSInteger)tag
 {
+     [self.deleteImgCell removeFromSuperview];
+    self.deleteImgCell = [[DeleteImgViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"deleteImgCell"];
+    self.deleteImgCell.frame = [UIScreen mainScreen].bounds;
+    
     [[UIApplication sharedApplication].keyWindow addSubview:self.deleteImgCell];
     
-    [self.deleteImgCell initWithImgDataArray:self.photosArr];
+    //设置显示类型
+    self.deleteImgCell.type = showPageLabelType;
+    [self.deleteImgCell initWithImgDataArray:self.photosArr index:tag];
     
     ICEWeakSelf;
     self.deleteImgCell.delteImgCallBack = ^(NSInteger tag) {
@@ -90,7 +89,6 @@
 //执行删除操作
 - (void) deleteImgWith:(NSInteger)tag
 {
-    [self.deleteImgCell removeFromSuperview];
     if (tag != 2000) {
         [self.photosArr removeObjectAtIndex:tag];
         [self reloadCellView];

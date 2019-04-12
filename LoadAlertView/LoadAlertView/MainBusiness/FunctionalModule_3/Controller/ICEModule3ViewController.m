@@ -70,7 +70,6 @@
     // 3. 添加到指定视图中
     [self.view addSubview:flowPhotosView];
     [self.view addSubview:linePhotosView];
-    
 }
 
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AA6143E60F3B11337B7AC93 /* libPods-LoadAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66211DCC646E8F22B990D4 /* libPods-LoadAlertView.a */; };
 		221D65C2224C9AA200F2AB2C /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D6557224C9AA200F2AB2C /* DALabeledCircularProgressView.m */; };
 		221D65C3224C9AA200F2AB2C /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D6558224C9AA200F2AB2C /* DACircularProgressView.m */; };
 		221D65C4224C9AA200F2AB2C /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D655C224C9AA200F2AB2C /* FLAnimatedImage.m */; };
@@ -75,7 +74,6 @@
 		228C0557224AFFC6003E115D /* ICEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C0556224AFFC6003E115D /* ICEBaseViewController.m */; };
 		228C055A224AFFF6003E115D /* ICETabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C0559224AFFF6003E115D /* ICETabBar.m */; };
 		228C055D224B000B003E115D /* ICETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C055C224B000B003E115D /* ICETabBarController.m */; };
-		228C0560224B0021003E115D /* ICENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C055F224B0021003E115D /* ICENavigationBar.m */; };
 		228C0563224B0036003E115D /* ICENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C0562224B0036003E115D /* ICENavigationController.m */; };
 		228C0566224B0069003E115D /* ICEBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C0565224B0069003E115D /* ICEBaseView.m */; };
 		228C056C224B0098003E115D /* ICEBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C056B224B0098003E115D /* ICEBaseModel.m */; };
@@ -93,8 +91,9 @@
 		228C06E5224B752B003E115D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C06E4224B752B003E115D /* UIView+Frame.m */; };
 		228C06EB224B762D003E115D /* EJAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C06E9224B762D003E115D /* EJAlertViewController.m */; };
 		228C06EC224B762D003E115D /* UIViewController+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C06EA224B762D003E115D /* UIViewController+AlertController.m */; };
-		3CEB2A3BCD66C7494758B19C /* libPods-LoadAlertViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6663B0DE44DC9DA052EC52 /* libPods-LoadAlertViewUITests.a */; };
-		EB33F154B562FA3C5A4B719B /* libPods-LoadAlertViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97977F312EE6BCF97DE95436 /* libPods-LoadAlertViewTests.a */; };
+		22DB3F8C2264530000801186 /* ClassificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB3F8B2264530000801186 /* ClassificationViewController.m */; };
+		22DB3F8F22646C7900801186 /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB3F8E22646C7900801186 /* UIBarButtonItem+SXCreate.m */; };
+		7CB29CDF3AFDAB8BE9D2D04E /* Pods_LoadAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48161CD7C29D6C6FAB5BC347 /* Pods_LoadAlertView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,7 +114,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1220949F117C7D1D4267BE71 /* Pods-LoadAlertViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadAlertViewTests.release.xcconfig"; path = "Target Support Files/Pods-LoadAlertViewTests/Pods-LoadAlertViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		221D6557224C9AA200F2AB2C /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
 		221D6558224C9AA200F2AB2C /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		221D6559224C9AA200F2AB2C /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
@@ -252,8 +250,6 @@
 		228C0559224AFFF6003E115D /* ICETabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICETabBar.m; sourceTree = "<group>"; };
 		228C055B224B000B003E115D /* ICETabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICETabBarController.h; sourceTree = "<group>"; };
 		228C055C224B000B003E115D /* ICETabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICETabBarController.m; sourceTree = "<group>"; };
-		228C055E224B0021003E115D /* ICENavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICENavigationBar.h; sourceTree = "<group>"; };
-		228C055F224B0021003E115D /* ICENavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICENavigationBar.m; sourceTree = "<group>"; };
 		228C0561224B0036003E115D /* ICENavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICENavigationController.h; sourceTree = "<group>"; };
 		228C0562224B0036003E115D /* ICENavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICENavigationController.m; sourceTree = "<group>"; };
 		228C0564224B0069003E115D /* ICEBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEBaseView.h; sourceTree = "<group>"; };
@@ -292,13 +288,14 @@
 		228C06E9224B762D003E115D /* EJAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJAlertViewController.m; sourceTree = "<group>"; };
 		228C06EA224B762D003E115D /* UIViewController+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertController.m"; sourceTree = "<group>"; };
 		228C06EE224B7896003E115D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22DB3F8A2264530000801186 /* ClassificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassificationViewController.h; sourceTree = "<group>"; };
+		22DB3F8B2264530000801186 /* ClassificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassificationViewController.m; sourceTree = "<group>"; };
+		22DB3F8D22646C7900801186 /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
+		22DB3F8E22646C7900801186 /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
+		48161CD7C29D6C6FAB5BC347 /* Pods_LoadAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5094B7A1A3349745242B5575 /* Pods-LoadAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadAlertView.release.xcconfig"; path = "Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView.release.xcconfig"; sourceTree = "<group>"; };
-		55F4C7FF7CF43801CFAC1B0C /* Pods-LoadAlertViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadAlertViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoadAlertViewUITests/Pods-LoadAlertViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		582281FF8AEABD638829C4A0 /* Pods-LoadAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadAlertView.debug.xcconfig"; path = "Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView.debug.xcconfig"; sourceTree = "<group>"; };
 		97977F312EE6BCF97DE95436 /* libPods-LoadAlertViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadAlertViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7D4BDD620B38683D54AD987 /* Pods-LoadAlertViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadAlertViewUITests.release.xcconfig"; path = "Target Support Files/Pods-LoadAlertViewUITests/Pods-LoadAlertViewUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E90AC24B8101620BA832D468 /* Pods-LoadAlertViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadAlertViewTests.debug.xcconfig"; path = "Target Support Files/Pods-LoadAlertViewTests/Pods-LoadAlertViewTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC66211DCC646E8F22B990D4 /* libPods-LoadAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6663B0DE44DC9DA052EC52 /* libPods-LoadAlertViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadAlertViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -308,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				228C06CC224B5F5E003E115D /* libXFCamera.a in Frameworks */,
-				1AA6143E60F3B11337B7AC93 /* libPods-LoadAlertView.a in Frameworks */,
+				7CB29CDF3AFDAB8BE9D2D04E /* Pods_LoadAlertView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +313,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB33F154B562FA3C5A4B719B /* libPods-LoadAlertViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +320,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEB2A3BCD66C7494758B19C /* libPods-LoadAlertViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +631,8 @@
 				228C06E1224B74BA003E115D /* UIColor+HexString.m */,
 				228C06E3224B752B003E115D /* UIView+Frame.h */,
 				228C06E4224B752B003E115D /* UIView+Frame.m */,
+				22DB3F8D22646C7900801186 /* UIBarButtonItem+SXCreate.h */,
+				22DB3F8E22646C7900801186 /* UIBarButtonItem+SXCreate.m */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -649,8 +646,6 @@
 				228C0559224AFFF6003E115D /* ICETabBar.m */,
 				228C055B224B000B003E115D /* ICETabBarController.h */,
 				228C055C224B000B003E115D /* ICETabBarController.m */,
-				228C055E224B0021003E115D /* ICENavigationBar.h */,
-				228C055F224B0021003E115D /* ICENavigationBar.m */,
 				228C0561224B0036003E115D /* ICENavigationController.h */,
 				228C0562224B0036003E115D /* ICENavigationController.m */,
 				228C0564224B0069003E115D /* ICEBaseView.h */,
@@ -844,6 +839,8 @@
 			children = (
 				228C06DD224B6F3E003E115D /* ICEModule5ViewController.h */,
 				228C06DE224B6F3E003E115D /* ICEModule5ViewController.m */,
+				22DB3F8A2264530000801186 /* ClassificationViewController.h */,
+				22DB3F8B2264530000801186 /* ClassificationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -902,9 +899,9 @@
 			isa = PBXGroup;
 			children = (
 				228C06EE224B7896003E115D /* AVFoundation.framework */,
-				EC66211DCC646E8F22B990D4 /* libPods-LoadAlertView.a */,
 				97977F312EE6BCF97DE95436 /* libPods-LoadAlertViewTests.a */,
 				FB6663B0DE44DC9DA052EC52 /* libPods-LoadAlertViewUITests.a */,
+				48161CD7C29D6C6FAB5BC347 /* Pods_LoadAlertView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -914,10 +911,6 @@
 			children = (
 				582281FF8AEABD638829C4A0 /* Pods-LoadAlertView.debug.xcconfig */,
 				5094B7A1A3349745242B5575 /* Pods-LoadAlertView.release.xcconfig */,
-				E90AC24B8101620BA832D468 /* Pods-LoadAlertViewTests.debug.xcconfig */,
-				1220949F117C7D1D4267BE71 /* Pods-LoadAlertViewTests.release.xcconfig */,
-				55F4C7FF7CF43801CFAC1B0C /* Pods-LoadAlertViewUITests.debug.xcconfig */,
-				B7D4BDD620B38683D54AD987 /* Pods-LoadAlertViewUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -933,6 +926,7 @@
 				228C04E22249BEB6003E115D /* Sources */,
 				228C04E32249BEB6003E115D /* Frameworks */,
 				228C04E42249BEB6003E115D /* Resources */,
+				409305BE027A2C2031A0C824 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -947,7 +941,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228C05152249BEB8003E115D /* Build configuration list for PBXNativeTarget "LoadAlertViewTests" */;
 			buildPhases = (
-				9923ECA4A1B43C3B7D58C785 /* [CP] Check Pods Manifest.lock */,
 				228C04FA2249BEB8003E115D /* Sources */,
 				228C04FB2249BEB8003E115D /* Frameworks */,
 				228C04FC2249BEB8003E115D /* Resources */,
@@ -966,7 +959,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228C05182249BEB8003E115D /* Build configuration list for PBXNativeTarget "LoadAlertViewUITests" */;
 			buildPhases = (
-				7334BB308DE9548FCD4F655F /* [CP] Check Pods Manifest.lock */,
 				228C05052249BEB8003E115D /* Sources */,
 				228C05062249BEB8003E115D /* Frameworks */,
 				228C05072249BEB8003E115D /* Resources */,
@@ -1055,7 +1047,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7334BB308DE9548FCD4F655F /* [CP] Check Pods Manifest.lock */ = {
+		409305BE027A2C2031A0C824 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1063,40 +1055,20 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TYPagerController/TYPagerController.framework",
+				"${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoadAlertViewUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYPagerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UINavigation_SXFixSpace.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9923ECA4A1B43C3B7D58C785 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoadAlertViewTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B07C88DD462F9CCFF72FD8D4 /* [CP] Check Pods Manifest.lock */ = {
@@ -1136,6 +1108,7 @@
 				221D65DA224C9AA200F2AB2C /* UIImage+GIF.m in Sources */,
 				228C0572224B00DC003E115D /* ICEWKWeViewController.m in Sources */,
 				228C06DF224B6F3E003E115D /* ICEModule5ViewController.m in Sources */,
+				22DB3F8C2264530000801186 /* ClassificationViewController.m in Sources */,
 				221D65C4224C9AA200F2AB2C /* FLAnimatedImage.m in Sources */,
 				221D65C3224C9AA200F2AB2C /* DACircularProgressView.m in Sources */,
 				221D65E0224C9AA200F2AB2C /* NSData+ImageContentType.m in Sources */,
@@ -1172,6 +1145,7 @@
 				221D65C5224C9AA200F2AB2C /* FLAnimatedImageView.m in Sources */,
 				228C055A224AFFF6003E115D /* ICETabBar.m in Sources */,
 				221D65CA224C9AA200F2AB2C /* PYPhotosViewController.m in Sources */,
+				22DB3F8F22646C7900801186 /* UIBarButtonItem+SXCreate.m in Sources */,
 				221D65D7224C9AA200F2AB2C /* SDWebImageDecoder.m in Sources */,
 				221D65CB224C9AA200F2AB2C /* PYPhotosReaderController.m in Sources */,
 				221D65F2224C9AA200F2AB2C /* TZGifPhotoPreviewController.m in Sources */,
@@ -1200,7 +1174,6 @@
 				221D65C8224C9AA200F2AB2C /* PYProgressView.m in Sources */,
 				221D65CE224C9AA200F2AB2C /* PYPhoto.m in Sources */,
 				228C053A224A1FAE003E115D /* ICEToolsHelper.m in Sources */,
-				228C0560224B0021003E115D /* ICENavigationBar.m in Sources */,
 				221D65EA224C9AA200F2AB2C /* TZPhotoPreviewController.m in Sources */,
 				221D65D0224C9AA200F2AB2C /* PYPhotoBrowseView.m in Sources */,
 			);
@@ -1308,7 +1281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1361,7 +1334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1373,12 +1346,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 582281FF8AEABD638829C4A0 /* Pods-LoadAlertView.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X99A4N5YKC;
 				GCC_PREFIX_HEADER = /Users/doman/Desktop/LoadAlertView/LoadAlertView/LoadAlertView/Configure/PrefixHeader.pch;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/build/include";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/build/include",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = LoadAlertView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1400,12 +1377,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5094B7A1A3349745242B5575 /* Pods-LoadAlertView.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X99A4N5YKC;
 				GCC_PREFIX_HEADER = /Users/doman/Desktop/LoadAlertView/LoadAlertView/LoadAlertView/Configure/PrefixHeader.pch;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/build/include";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/build/include",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = LoadAlertView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1425,7 +1406,6 @@
 		};
 		228C05162249BEB8003E115D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E90AC24B8101620BA832D468 /* Pods-LoadAlertViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1444,7 +1424,6 @@
 		};
 		228C05172249BEB8003E115D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1220949F117C7D1D4267BE71 /* Pods-LoadAlertViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1463,7 +1442,6 @@
 		};
 		228C05192249BEB8003E115D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55F4C7FF7CF43801CFAC1B0C /* Pods-LoadAlertViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoadAlertViewUITests/Info.plist;
@@ -1481,7 +1459,6 @@
 		};
 		228C051A2249BEB8003E115D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7D4BDD620B38683D54AD987 /* Pods-LoadAlertViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoadAlertViewUITests/Info.plist;

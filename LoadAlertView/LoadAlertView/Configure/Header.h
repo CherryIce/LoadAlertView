@@ -21,6 +21,8 @@
 #import "UIImageView+WebCache.h"
 #import "UIButton+WebCache.h"
 #import "SDImageCache.h"
+#import "TYTabPagerController.h"
+#import "UIBarButtonItem+SXCreate.h"
 
 //工具类
 #import "ICEGuideController.h"

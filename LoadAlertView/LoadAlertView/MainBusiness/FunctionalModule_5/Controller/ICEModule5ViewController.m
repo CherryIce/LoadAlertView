@@ -7,6 +7,7 @@
 //
 
 #import "ICEModule5ViewController.h"
+#import "ClassificationViewController.h"
 
 #define BAI 100
 #define PADDING 10
@@ -66,6 +67,7 @@
             UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setFrame:CGRectMake(PADDING, PADDING, width - PADDING, width - PADDING)];
             button.backgroundColor = [UIColor greenColor];
+            [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchDragInside];
             [_v addSubview:button];
         }
             break;
@@ -80,6 +82,7 @@
                     UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
                     [button setFrame:CGRectMake(j*width + PADDING, i*width + PADDING, width - PADDING, width - PADDING)];
                     button.backgroundColor = [UIColor redColor];
+                    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchDragInside];
                     [_v addSubview:button];
                 }
             }
@@ -104,6 +107,7 @@
                     }
                     [button setFrame:CGRectMake(j*width + PADDING, i*width + PADDING, width - PADDING, width - PADDING)];
                     button.backgroundColor = [UIColor purpleColor];
+                    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchDragInside];
                     [_v addSubview:button];
                 }
             }
@@ -112,6 +116,13 @@
         default:
             break;
     }
+}
+
+- (void) buttonClick:(UIButton *) sender
+{
+    //classification
+    ClassificationViewController * ctl = [[ClassificationViewController alloc] init];
+    [self.navigationController pushViewController:ctl animated:false];
 }
 
 /*

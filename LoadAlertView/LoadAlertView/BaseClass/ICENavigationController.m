@@ -31,6 +31,28 @@
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
         self.interactivePopGestureRecognizer.delegate = (id)weakSelf;
     }
+    
+//    //设置标题字体颜色
+//    [self.navigationBar setTitleTextAttributes:
+//     @{NSFontAttributeName:systemOfFont(18),
+//       NSForegroundColorAttributeName:kWhiteColor
+//       }];
+//
+//    //设置左右按钮字体颜色
+//    [[UIBarButtonItem appearance]  setTitleTextAttributes:@{NSFontAttributeName:systemOfFont(14),
+//                                                            NSForegroundColorAttributeName:[UIColor blackColor]
+//                                                            } forState:UIControlStateNormal];
+//
+//    [self.navigationBar setBackgroundImage:UIIMAGE(@"nav_bg") forBarMetrics:UIBarMetricsDefault];
+//
+//    //self.navigationBar.barTintColor = kNavBarTintColor;
+//
+//    //去掉下划线
+//    //[self.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    //消除阴影
+//    self.navigationBar.shadowImage = [UIImage new];
+    
+     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
 }
 
 //开始接收到手势的代理方法
@@ -66,15 +88,27 @@ shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherG
 //----------  防重push
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.pushing == YES) {
-        NSLog(@"被拦截");
+        //NSLog(@"被拦截");
         //return;
     } else {
-        NSLog(@"push");
+        //NSLog(@"push");
         self.pushing = YES;
     }
+    
+    if (self.childViewControllers.count >= 1) {
+        viewController.hidesBottomBarWhenPushed = true;
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(onActionBack) image:[[UIImage imageNamed:@"arrow-left-s-line"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    }
+    
     [super pushViewController:viewController animated:animated];
 }
 
+- (void) onActionBack{
+    if (self.presentingViewController != nil)
+        [self dismissViewControllerAnimated:NO completion:nil];
+    else
+        [self popViewControllerAnimated:YES];
+}
 
 #pragma mark - UINavigationControllerDelegate
 -(void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {

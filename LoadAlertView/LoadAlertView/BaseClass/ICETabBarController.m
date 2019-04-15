@@ -31,7 +31,6 @@
     [self addChildViewController:[[ICEModule3ViewController alloc] init] navTitle:@"ZZZ" tabbarTitle:@"three" tabbarImage:@"01"];
     [self addChildViewController:[[ICEModule4ViewController alloc] init] navTitle:@"AAA" tabbarTitle:@"two" tabbarImage:@"01"];
     [self addChildViewController:[[ICEModule5ViewController alloc] init] navTitle:@"ZZZ" tabbarTitle:@"three" tabbarImage:@"01"];
-
 }
 
 - (void)addChildViewController:(UIViewController *)controller navTitle:(NSString *)navTitle tabbarTitle:(NSString *)tabbarTitle tabbarImage:(NSString *)tabbarImage{

@@ -9,7 +9,7 @@
 #import "DeleteImgViewCell.h"
 
 #define showPageLabelWIDTH  50
-#define showPageLabelHEIGHT 30
+#define showPageLabelHEIGHT 25
 
 @interface DeleteImgViewCell()<UIScrollViewDelegate>
 

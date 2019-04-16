@@ -233,7 +233,6 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     TZImagePickerController *_tzImagePickerVc = (TZImagePickerController *)self.navigationController;
-
     CGFloat statusBarHeight = [TZCommonTools tz_statusBarHeight];
     CGFloat statusBarHeightInterval = statusBarHeight - 20;
     CGFloat naviBarHeight = statusBarHeight + _tzImagePickerVc.navigationBar.tz_height;

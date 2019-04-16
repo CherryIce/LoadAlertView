@@ -51,8 +51,6 @@
 //    //[self.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 //    //消除阴影
 //    self.navigationBar.shadowImage = [UIImage new];
-    
-     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
 }
 
 //开始接收到手势的代理方法

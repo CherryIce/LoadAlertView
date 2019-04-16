@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -79,7 +79,7 @@
 		595CD16C623D432D9ABA12D3B2790FD8 /* TYPagerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYPagerController-dummy.m"; sourceTree = "<group>"; };
 		598F34794A70CB8DD45698802494D2A1 /* TYPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYPagerView.m; path = TYPagerControllerDemo/TYPagerController/TYPagerView.m; sourceTree = "<group>"; };
 		6916557444F92A15F6E2CEFF539D5334 /* UINavigationBar+SXFixSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+SXFixSpace.m"; path = "UINavigation-SXFixSpace/UINavigationBar+SXFixSpace.m"; sourceTree = "<group>"; };
-		6A0A78C55F32E9776EBE968AD72C19C2 /* Pods_LoadAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoadAlertView.framework; path = "Pods-LoadAlertView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0A78C55F32E9776EBE968AD72C19C2 /* Pods_LoadAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3F9CA445876E7B836E550D387523AB /* Pods-LoadAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoadAlertView-dummy.m"; sourceTree = "<group>"; };
 		6CCB845E16D5B228039D3611ADC71D87 /* TYTabPagerBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTabPagerBar.m; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBar.m; sourceTree = "<group>"; };
 		712AE0B280EC95BC864B60037ECDA31A /* UINavigationController+SXFixSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+SXFixSpace.m"; path = "UINavigation-SXFixSpace/UINavigationController+SXFixSpace.m"; sourceTree = "<group>"; };
@@ -93,10 +93,10 @@
 		850665FECCBF14C77755D812CE2A1E6B /* Pods-LoadAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoadAlertView.modulemap"; sourceTree = "<group>"; };
 		8C3E1AD1E195C04AB932F7D56250F0E5 /* TYPagerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYPagerController-umbrella.h"; sourceTree = "<group>"; };
 		98E604004150DF11177215B58E5C83D8 /* TYTabPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerController.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerController.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD0274FF009CDB6BCCF95E1F231E871 /* Pods-LoadAlertView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoadAlertView-frameworks.sh"; sourceTree = "<group>"; };
 		9DFC1FA66046BE88DE758C78D2418DD0 /* Pods-LoadAlertView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoadAlertView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A394C9A2810BF953C971415220A8468B /* TYPagerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYPagerController.framework; path = TYPagerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A394C9A2810BF953C971415220A8468B /* TYPagerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYPagerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C4140D3DA7B07993B540D55A228109 /* Pods-LoadAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoadAlertView.debug.xcconfig"; sourceTree = "<group>"; };
 		BC4C70DC10397E563DC1C7085FEF8671 /* TYPagerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYPagerController-Info.plist"; sourceTree = "<group>"; };
 		C0FD6A6394859EAB109E748CA905239A /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerBarCell.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarCell.h; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2024235269FA6FD6F2E936964D2960B /* UINavigationController+SXFixSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+SXFixSpace.h"; path = "UINavigation-SXFixSpace/UINavigationController+SXFixSpace.h"; sourceTree = "<group>"; };
 		D253C3C31DF99D8BD19EF9EFA3423784 /* UINavigation-SXFixSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UINavigation-SXFixSpace.xcconfig"; sourceTree = "<group>"; };
-		D56996A683F8DA91240A5CF973903512 /* UINavigation_SXFixSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UINavigation_SXFixSpace.framework; path = "UINavigation-SXFixSpace.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56996A683F8DA91240A5CF973903512 /* UINavigation_SXFixSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UINavigation_SXFixSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E354F4463797BD08533214977CAA9968 /* UINavigation-SXFixSpace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UINavigation-SXFixSpace-Info.plist"; sourceTree = "<group>"; };
 		E9B318B88DADA247C2611586B2F10DFB /* TYPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYPagerController.m; path = TYPagerControllerDemo/TYPagerController/TYPagerController.m; sourceTree = "<group>"; };
 		EA0F97EF55162A93C564FA7448D0A27D /* TYPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYPagerController.h; path = TYPagerControllerDemo/TYPagerController/TYPagerController.h; sourceTree = "<group>"; };
@@ -201,7 +201,6 @@
 				161F2DB85556C1832B02913EB3363857 /* TYTabPagerView.m */,
 				49017AE1EE8FE36219E30CF2F53911E6 /* Support Files */,
 			);
-			name = TYPagerController;
 			path = TYPagerController;
 			sourceTree = "<group>";
 		};
@@ -283,7 +282,6 @@
 				3692C34DA73A664E3574EF83B502E97B /* UINavigationItem+SXFixSpace.m */,
 				F425B5E60C936E1A1C0C96E66316A212 /* Support Files */,
 			);
-			name = "UINavigation-SXFixSpace";
 			path = "UINavigation-SXFixSpace";
 			sourceTree = "<group>";
 		};
@@ -393,13 +391,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -498,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -575,11 +575,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView.modulemap";
 				OTHER_LDFLAGS = "";
@@ -599,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -648,8 +645,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -672,11 +668,7 @@
 				INFOPLIST_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace.modulemap";
 				PRODUCT_MODULE_NAME = UINavigation_SXFixSpace;
 				PRODUCT_NAME = UINavigation_SXFixSpace;
@@ -706,11 +698,7 @@
 				INFOPLIST_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace.modulemap";
 				PRODUCT_MODULE_NAME = UINavigation_SXFixSpace;
 				PRODUCT_NAME = UINavigation_SXFixSpace;
@@ -741,11 +729,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LoadAlertView/Pods-LoadAlertView.modulemap";
 				OTHER_LDFLAGS = "";
@@ -779,11 +763,7 @@
 				INFOPLIST_FILE = "Target Support Files/TYPagerController/TYPagerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TYPagerController/TYPagerController.modulemap";
 				PRODUCT_MODULE_NAME = TYPagerController;
 				PRODUCT_NAME = TYPagerController;
@@ -814,11 +794,7 @@
 				INFOPLIST_FILE = "Target Support Files/TYPagerController/TYPagerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TYPagerController/TYPagerController.modulemap";
 				PRODUCT_MODULE_NAME = TYPagerController;
 				PRODUCT_NAME = TYPagerController;

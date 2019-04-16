@@ -715,6 +715,7 @@
     self.isFirstAppear = YES;
     self.view.backgroundColor = [UIColor whiteColor];
     
+    //重调位置
     TZImagePickerController *imagePickerVc = (TZImagePickerController *)self.navigationController;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:imagePickerVc.cancelBtnTitleStr style:UIBarButtonItemStylePlain target:imagePickerVc action:@selector(cancelButtonClick)];
 }

@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ICEBaseViewController : UIViewController
 
-@property (nonatomic, strong) ICENavViewCell * navView;
-
 @end
 
 NS_ASSUME_NONNULL_END

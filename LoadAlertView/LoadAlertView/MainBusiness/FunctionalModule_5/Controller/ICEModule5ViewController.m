@@ -59,13 +59,13 @@
     _v = [[UIView alloc] initWithFrame:CGRectMake(0, Height_NavBar + 2 * PADDING + BAI, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width)];
     [self.view addSubview:_v];
     
-    CGFloat width = [UIScreen mainScreen].bounds.size.width/3;
+    CGFloat width = ([UIScreen mainScreen].bounds.size.width - PADDING)/3;
     switch (imgArrLists.count) {
         case 1:
         {
             //等比例大小
             UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
-            [button setFrame:CGRectMake(PADDING, PADDING, width - PADDING, width - PADDING)];
+            [button setFrame:CGRectMake(PADDING, PADDING, width, width)];
             button.backgroundColor = [UIColor greenColor];
             [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchDragInside];
             [_v addSubview:button];

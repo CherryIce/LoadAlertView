@@ -47,7 +47,7 @@
     // Do any additional setup after loading the view.
     
     //注册导航方法
-    [self.webConfiguration.userContentController addScriptMessageHandler:self name:@"gpsNavigation"];
+    [self.webConfiguration.userContentController addScriptMessageHandler:self name:@"jsClickCall"];
     
     NSString *timeStamps = @"1555399314877";
     NSString *signs = @"E10B59C7ADCAFFA07A7E8C89A5F7C2057DC24D9F";
@@ -106,7 +106,8 @@
 /** 与后台协商方法调用 */
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message
 {
-    if ([message.name isEqualToString:@"gpsNavigation"]) {
+    //window.webkit.messageHandlers.jsClickCall.postMessage("我是js传递过来的数据");
+    if ([message.name isEqualToString:@"jsClickCall"]) {
         //code... UserInfo.userInfo.name
         NSDictionary * d = message.body;
         NSLog(@">>>>>>%@",d);

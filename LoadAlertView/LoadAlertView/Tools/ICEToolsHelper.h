@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ICEToolsHelper : NSObject
 
+/** 字典转jsonstring **/
++ (NSString *)convertToJsonData:(NSDictionary *)dict;
+
 /** 是否为空 **/
 + (BOOL)isEmpty:(id)value;
 

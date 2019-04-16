@@ -9,6 +9,8 @@
 #import "ICEModule5ViewController.h"
 #import "ClassificationViewController.h"
 
+#import "ICEWKWeViewController.h"
+
 #define BAI 100
 #define PADDING 10
 
@@ -24,9 +26,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self configurationNavRightBtn];
     [self initUI];
 }
 
+#pragma mark ==== wkwebview入口 ====
+- (void) configurationNavRightBtn{
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(loadWkwebview) title:@"wk"];
+}
+
+- (void) loadWkwebview{
+    ICEWKWeViewController * ctl = [[ICEWKWeViewController alloc] init];
+    [self.navigationController pushViewController:ctl animated:true];
+}
+
+#pragma mark ---- 九宫格排版 ----
 - (void) initUI
 {
     UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];

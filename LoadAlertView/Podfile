@@ -2,10 +2,11 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'LoadAlertView' do
-     pod 'TYPagerController'
-     pod 'UINavigation-SXFixSpace'
-     pod 'KafkaRefresh'
-     pod 'SDWebImage'
-     pod 'MBProgressHUD'
-     pod 'TZImagePickerController'
+     pod 'TYPagerController',:inhibit_warnings => true
+     pod 'UINavigation-SXFixSpace',:inhibit_warnings => true
+     pod 'KafkaRefresh',:inhibit_warnings => true
+     pod 'SDWebImage',:inhibit_warnings => true
+     pod 'MBProgressHUD',:inhibit_warnings => true
+     pod 'TZImagePickerController',:inhibit_warnings => true
+     pod 'MJExtension',:inhibit_warnings => true
 end

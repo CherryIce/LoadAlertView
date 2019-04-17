@@ -10,4 +10,18 @@
 
 @implementation ICEBaseModel
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
+
+- (instancetype)initWithDictionary:(NSDictionary *)dic
+{
+    if (self = [super init])
+    {
+        [self mj_setKeyValues:dic];
+    }
+    return self;
+}
+
 @end

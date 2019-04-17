@@ -24,6 +24,7 @@
 #import "KafkaRefresh.h"
 #import "MBProgressHUD+Simple.h"
 #import "MBProgressHUD.h"
+#import "MJExtension.h"
 
 //工具类
 #import "ICEGuideController.h"

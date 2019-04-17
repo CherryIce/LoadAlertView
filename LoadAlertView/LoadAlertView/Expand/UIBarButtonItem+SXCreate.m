@@ -10,18 +10,18 @@
 
 @implementation UIBarButtonItem (SXCreate)
 
-+(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(UIImage *)image {
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(nullable UIImage *)image {
     return [self itemWithTarget:target action:action nomalImage:image higeLightedImage:nil imageEdgeInsets:UIEdgeInsetsZero];
 }
 
-+(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(UIImage *)image imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets {
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(nullable UIImage *)image imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets {
     return [self itemWithTarget:target action:action nomalImage:image higeLightedImage:nil imageEdgeInsets:imageEdgeInsets];
 }
 
 +(UIBarButtonItem *)itemWithTarget:(id)target
                             action:(SEL)action
-                        nomalImage:(UIImage *)nomalImage
-                  higeLightedImage:(UIImage *)higeLightedImage
+                        nomalImage:(nullable UIImage *)nomalImage
+                  higeLightedImage:(nullable UIImage *)higeLightedImage
                    imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets {
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -56,9 +56,9 @@
 +(UIBarButtonItem *)itemWithTarget:(id)target
                             action:(SEL)action
                              title:(NSString *)title
-                              font:(UIFont *)font
-                        titleColor:(UIColor *)titleColor
-                  highlightedColor:(UIColor *)highlightedColor
+                              font:(nullable UIFont *)font
+                        titleColor:(nullable UIColor *)titleColor
+                  highlightedColor:(nullable UIColor *)highlightedColor
                    titleEdgeInsets:(UIEdgeInsets)titleEdgeInsets {
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];

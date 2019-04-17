@@ -66,7 +66,7 @@
     NSArray * colorArr = @[[UIColor redColor],[UIColor orangeColor],[UIColor blackColor],[UIColor greenColor],[UIColor lightGrayColor]];
     TableRefreshViewController * ctl = [[TableRefreshViewController alloc] init];
     ctl.refreshColor = colorArr[index];
-    ctl.refreshStyle = index;
+    ctl.refreshStyle = index + 4;
     return ctl;
 }
 

@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param image image
  @return 生成的UIBarButtonItem
  */
-+(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(UIImage *)image;
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(nullable UIImage *)image;
 /**
  根据图片生成UIBarButtonItem
  
@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param imageEdgeInsets 图片偏移
  @return 生成的UIBarButtonItem
  */
-+(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(UIImage *)image imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets;
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(nullable UIImage *)image imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets;
 
 /**
  根据图片生成UIBarButtonItem
@@ -48,8 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(UIBarButtonItem *)itemWithTarget:(id)target
                             action:(SEL)action
-                        nomalImage:(UIImage *)nomalImage
-                  higeLightedImage:(UIImage *)higeLightedImage
+                        nomalImage:(nullable UIImage *)nomalImage
+                  higeLightedImage:(nullable UIImage *)higeLightedImage
                    imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets;
 
 
@@ -88,9 +88,9 @@ NS_ASSUME_NONNULL_BEGIN
 +(UIBarButtonItem *)itemWithTarget:(id)target
                             action:(SEL)action
                              title:(NSString *)title
-                              font:(UIFont *)font
-                        titleColor:(UIColor *)titleColor
-                  highlightedColor:(UIColor *)highlightedColor
+                              font:(nullable UIFont *)font
+                        titleColor:(nullable UIColor *)titleColor
+                  highlightedColor:(nullable UIColor *)highlightedColor
                    titleEdgeInsets:(UIEdgeInsets)titleEdgeInsets;
 
 

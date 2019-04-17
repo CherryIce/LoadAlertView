@@ -52,7 +52,7 @@
     } themeColor:_refreshColor refreshStyle:_refreshStyle];
 }
 
-#pragma mark 下拉刷新
+#pragma mark ====== 下拉刷新 ======
 - (void) loadData{
     [self.dataArr removeAllObjects];
     if (self.isFirst) {
@@ -83,7 +83,7 @@
     });
 }
 
-#pragma mark  ###### tableView #####
+#pragma mark  ====== tableView ====== 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     if (!cell) {

@@ -30,12 +30,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ICEWKWeViewController : ICEBaseViewController
 
-//传参 ==== xxxxxx ====
+//传参 ==== h5拼接地址 baseURL+url ====
 @property (nonatomic , copy) NSString * url;
 
-//传参 ==== xxxxxx ====
+//传参 ==== post可变参数 ====
+@property (nonatomic , copy) NSDictionary * postData;
 
-//传参 ==== xxxxxx ====
+//传参 ==== 注册js方法可能多个,所以用数组 ====
+@property (nonatomic , copy) NSArray * jsMehodArr;
 
 @end
 

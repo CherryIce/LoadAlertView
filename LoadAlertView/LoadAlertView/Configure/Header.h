@@ -16,13 +16,14 @@
 //三方类
 #import "XFCamera.h"
 #import <AVFoundation/AVFoundation.h>
-#import "PYPhotoBrowser.h"
 #import "TZImagePickerController.h"
 #import "UIImageView+WebCache.h"
 #import "UIButton+WebCache.h"
 #import "SDImageCache.h"
 #import "TYTabPagerController.h"
-#import "UIBarButtonItem+SXCreate.h"
+#import "KafkaRefresh.h"
+#import "MBProgressHUD+Simple.h"
+#import "MBProgressHUD.h"
 
 //工具类
 #import "ICEGuideController.h"
@@ -35,6 +36,7 @@
 #import "UIColor+HexString.h"
 #import "UIView+Frame.h"
 #import "UIViewController+AlertController.h"
+#import "UIBarButtonItem+SXCreate.h"
 
 //请求类
 #import "APIRequest.h"

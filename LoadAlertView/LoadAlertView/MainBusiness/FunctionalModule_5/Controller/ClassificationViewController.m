@@ -8,6 +8,8 @@
 
 #import "ClassificationViewController.h"
 
+#import "TableRefreshViewController.h"
+
 @interface ClassificationViewController ()<TYTabPagerControllerDataSource,TYTabPagerControllerDelegate>
 
 @property (nonatomic, strong) NSMutableArray *titleDatas;
@@ -62,8 +64,9 @@
 
 - (UIViewController *)tabPagerController:(TYTabPagerController *)tabPagerController controllerForIndex:(NSInteger)index prefetching:(BOOL)prefetching {
     NSArray * colorArr = @[[UIColor redColor],[UIColor orangeColor],[UIColor blackColor],[UIColor greenColor],[UIColor lightGrayColor]];
-    UIViewController * ctl = [[UIViewController alloc] init];
-    ctl.view.backgroundColor = colorArr[index];
+    TableRefreshViewController * ctl = [[TableRefreshViewController alloc] init];
+    ctl.refreshColor = colorArr[index];
+    ctl.refreshStyle = index;
     return ctl;
 }
 

@@ -28,6 +28,13 @@
     
     [self configurationNavRightBtn];
     [self initUI];
+    
+//    [self.webView.scrollView bindHeadRefreshHandler:^{
+//        //请求
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//            [self.webView.scrollView.headRefreshControl endRefreshing];
+//        });
+//    } themeColor:[UIColor redColor] refreshStyle:KafkaRefreshStyleReplicatorCircle];
 }
 
 #pragma mark ==== wkwebview入口 ====

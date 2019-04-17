@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ICEBaseViewController : UIViewController
 
+//是否第一次进入当前页
+@property (nonatomic , assign) BOOL isFirst;
+
 @end
 
 NS_ASSUME_NONNULL_END

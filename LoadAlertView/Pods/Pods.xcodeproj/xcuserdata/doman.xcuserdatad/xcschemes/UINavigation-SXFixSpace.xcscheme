@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE564F0B80C10C3DC42F8F787AAD28DE"
+               BlueprintIdentifier = "212EF4269A950BB180C61F98EF7AA195"
                BuildableName = "UINavigation_SXFixSpace.framework"
                BlueprintName = "UINavigation-SXFixSpace"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE564F0B80C10C3DC42F8F787AAD28DE"
+            BlueprintIdentifier = "212EF4269A950BB180C61F98EF7AA195"
             BuildableName = "UINavigation_SXFixSpace.framework"
             BlueprintName = "UINavigation-SXFixSpace"
             ReferencedContainer = "container:Pods.xcodeproj">

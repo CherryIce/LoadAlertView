@@ -4,4 +4,8 @@ use_frameworks!
 target 'LoadAlertView' do
      pod 'TYPagerController'
      pod 'UINavigation-SXFixSpace'
+     pod 'KafkaRefresh'
+     pod 'SDWebImage'
+     pod 'MBProgressHUD'
+     pod 'TZImagePickerController'
 end

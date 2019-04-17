@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //默认都是第一次加载 也可以在viewWillAppear里面,但是必须调用者方法才可以
+    self.isFirst = true;
 }
 
 /*

@@ -44,13 +44,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view
+    // Do any additional setup after loading the view    
     //token signs timeStamps 为每个接口必传参数,视项目情况而定
     NSString *timeStamps = @"1555399314877";
     NSString *signs = @"E10B59C7ADCAFFA07A7E8C89A5F7C2057DC24D9F";
     NSString *token = @"37a0527bcb45418e885519afe42f2627";
     _url = @"http://10.10.1.21:8080/fdym/auth/H5/inviterlist";
     
+    
+//    _url = @"https://www.dbmeinv.com/index.htm";
+//    NSMutableDictionary * dict = [[NSMutableDictionary alloc] initWithDictionary:@{@"cid":@(2),@"pager_offset":@(2)}];
     //以下方法亲测有用!!! 需要将请求地址和数据切换成可用数据
     //固定参数
     NSMutableDictionary * dict = [[NSMutableDictionary alloc] initWithDictionary:@{@"token":token,@"sign":signs,@"posttime":timeStamps}];

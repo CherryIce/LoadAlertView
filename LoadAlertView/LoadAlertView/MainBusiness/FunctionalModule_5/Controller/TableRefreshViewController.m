@@ -58,6 +58,13 @@
     if (self.isFirst) {
         [MBProgressHUD showActivityMessage:@"加载中..."];
     }
+    
+//    [[APIRequest sharedNewtWorkTool] GETRequestWithUrl:@"https://www.dbmeinv.com/index.htm?cid=2&pager_offset=2" paramaters:nil successBlock:^(NSDictionary * _Nonnull data) {
+//
+//    } FailBlock:^(NSError * _Nonnull error) {
+//
+//    }];
+    
     for (int i = 0; i<30; i++) {
         [self.dataArr addObject:[NSString stringWithFormat:@"%03d",i]];
     }

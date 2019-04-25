@@ -60,8 +60,8 @@
     urlString = [urlString substringToIndex:urlString.length - 1];
     
     NSLog(@"urlString:%@",urlString);
-    
-    NSURL *url = [NSURL URLWithString:urlString];
+   
+    NSURL *url = [NSURL URLWithString:[urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:15];
     
@@ -69,7 +69,7 @@
     // completionHandler: 说明网络请求完成!
     [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         
-        //NSLog(@"xxxx%@",[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+        NSLog(@"xxxx%@",[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
         unsigned long encode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
         NSString *result = [[NSString alloc] initWithData:data encoding:encode];
         
